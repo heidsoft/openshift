@@ -21,3 +21,7 @@ https://access.redhat.com/solutions/5140431
 
 ## osd 添加失败
 https://bugzilla.redhat.com/show_bug.cgi?id=1886534
+
+
+## k8s 如何利用terminationGracePeriodSeconds 优雅地关闭你的服务？
+https://www.jianshu.com/p/1f54ad627cb7
