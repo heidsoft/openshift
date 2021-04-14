@@ -7,7 +7,7 @@ https://docs.openshift.com/container-platform/3.11/install_config/adding_hosts_t
 ## 手动更新master 证书
 https://access.redhat.com/solutions/5140431
 
-“”“
+```
 - name: Get common IP facts when necessary
   hosts: nodes:!masters
   roles:
@@ -17,4 +17,4 @@ https://access.redhat.com/solutions/5140431
     openshift_facts:
       role: common
       system_facts: "{{ vars_openshift_facts_system_facts }}"
-”“”
+```
