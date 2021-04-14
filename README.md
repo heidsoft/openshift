@@ -18,3 +18,6 @@ https://access.redhat.com/solutions/5140431
       role: common
       system_facts: "{{ vars_openshift_facts_system_facts }}"
 ```
+
+## osd 添加失败
+https://bugzilla.redhat.com/show_bug.cgi?id=1886534
